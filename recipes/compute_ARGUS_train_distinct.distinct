@@ -5,196 +5,13 @@
   },
   "keys": [
     {
-      "column": "id_challenge"
-    },
-    {
-      "column": "marque"
-    },
-    {
-      "column": "produit"
-    },
-    {
-      "column": "famille"
-    },
-    {
-      "column": "moteur"
-    },
-    {
-      "column": "finition"
-    },
-    {
-      "column": "generation"
-    },
-    {
-      "column": "phase"
-    },
-    {
-      "column": "energie"
-    },
-    {
-      "column": "millesime"
-    },
-    {
-      "column": "km"
-    },
-    {
-      "column": "dt_1mec"
-    },
-    {
-      "column": "dt_carte_grise"
-    },
-    {
-      "column": "dt_achat"
-    },
-    {
-      "column": "dt_vente"
-    },
-    {
-      "column": "prix_vente"
-    },
-    {
-      "column": "marque_vendeur"
-    },
-    {
-      "column": "destination"
-    },
-    {
-      "column": "frais_remise_etat_reel"
-    },
-    {
-      "column": "premiere_main"
-    },
-    {
-      "column": "departement_vente"
-    },
-    {
-      "column": "region_vente"
-    },
-    {
-      "column": "alimentation"
-    },
-    {
-      "column": "arbre_a_came"
-    },
-    {
-      "column": "boite"
-    },
-    {
-      "column": "capac_reservoir"
-    },
-    {
-      "column": "carrosserie"
-    },
-    {
-      "column": "chass_nb_places"
-    },
-    {
-      "column": "conso_co2"
-    },
-    {
-      "column": "conso_mixte"
-    },
-    {
-      "column": "conso_ece"
-    },
-    {
-      "column": "conso_eudc"
-    },
-    {
-      "column": "cylindre_archi"
-    },
-    {
-      "column": "cv"
-    },
-    {
-      "column": "dt_deb_comm"
-    },
-    {
-      "column": "dt_fin_comm"
-    },
-    {
-      "column": "dimen_empattement"
-    },
-    {
-      "column": "dimen_hauteur"
-    },
-    {
-      "column": "dimen_largeur"
-    },
-    {
       "column": "dimen_longueur"
     },
     {
       "column": "moteu_couple"
-    },
-    {
-      "column": "moteu_cyl_cm3"
-    },
-    {
-      "column": "moteu_din"
-    },
-    {
-      "column": "moteu_nb_soupapes"
-    },
-    {
-      "column": "moteu_regime_kw"
-    },
-    {
-      "column": "nb_cylindre"
-    },
-    {
-      "column": "perfo_accel_0_100"
-    },
-    {
-      "column": "perfo_vitesse_max"
-    },
-    {
-      "column": "poids_charge_utile"
-    },
-    {
-      "column": "poids_pds_tot_vide"
-    },
-    {
-      "column": "poids_ptac"
-    },
-    {
-      "column": "poids_ptra"
-    },
-    {
-      "column": "prix_neuf"
-    },
-    {
-      "column": "prix_neuf_opt"
-    },
-    {
-      "column": "suralimentation"
-    },
-    {
-      "column": "transmission"
-    },
-    {
-      "column": "veh_portes"
-    },
-    {
-      "column": "veh_puissance_kw"
-    },
-    {
-      "column": "veh_puiss_fisc"
-    },
-    {
-      "column": "veh_vol_coffre"
-    },
-    {
-      "column": "veh_vol_utile"
-    },
-    {
-      "column": "nb_option"
-    },
-    {
-      "column": "option"
     }
   ],
-  "globalCount": false,
+  "globalCount": true,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -223,6 +40,25 @@
   },
   "outputColumnNameOverrides": {},
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "timestampNoTzAsDate": false,
+            "name": "dimen_longueur",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "moteu_couple",
+            "type": "string",
+            "maxLength": -1
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
