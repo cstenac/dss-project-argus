@@ -19,7 +19,7 @@
         "rules": []
       },
       "samplingMethod": "RANDOM_FIXED_NB",
-      "maxRecords": 30000,
+      "maxRecords": 20000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
