@@ -18,8 +18,8 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "HEAD_SEQUENTIAL",
-      "maxRecords": 50000,
+      "samplingMethod": "RANDOM_FIXED_NB",
+      "maxRecords": 30000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
