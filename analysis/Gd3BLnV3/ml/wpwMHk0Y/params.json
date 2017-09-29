@@ -19,7 +19,7 @@
         "rules": []
       },
       "samplingMethod": "HEAD_SEQUENTIAL",
-      "maxRecords": 100000,
+      "maxRecords": 10000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
@@ -1839,7 +1839,7 @@
       "randomized": true,
       "nIter": 0,
       "timeout": 0,
-      "nJobs": 1
+      "nJobs": 2
     },
     "metrics": {
       "evaluationMetric": "R2",
