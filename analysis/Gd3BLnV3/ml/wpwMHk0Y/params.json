@@ -1346,7 +1346,7 @@
   },
   "modeling": {
     "random_forest_regression": {
-      "enabled": true,
+      "enabled": false,
       "n_estimators": [
         100
       ],
@@ -1474,9 +1474,21 @@
     "ridge_regression": {
       "alphaMode": "MANUAL",
       "alpha": [
+        1.0E-4,
+        3.0E-4,
+        0.001,
+        0.003,
+        0.01,
+        0.03,
         0.1,
+        0.3,
         1.0,
-        3.0
+        3.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0,
+        1000.0
       ],
       "enabled": true
     },
