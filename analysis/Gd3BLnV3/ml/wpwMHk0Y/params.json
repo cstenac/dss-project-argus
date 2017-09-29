@@ -1839,7 +1839,7 @@
       "randomized": true,
       "nIter": 0,
       "timeout": 0,
-      "nJobs": 4
+      "nJobs": 1
     },
     "metrics": {
       "evaluationMetric": "R2",
