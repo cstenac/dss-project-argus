@@ -19,7 +19,7 @@
         "rules": []
       },
       "samplingMethod": "RANDOM_FIXED_NB",
-      "maxRecords": 20000,
+      "maxRecords": 30000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
@@ -28,7 +28,7 @@
     "ssdSeed": 1337,
     "kfold": false,
     "nFolds": 5,
-    "instanceIdRefresher": 1,
+    "instanceIdRefresher": 0,
     "subSamplingSeed": 1337
   },
   "preprocessing": {
