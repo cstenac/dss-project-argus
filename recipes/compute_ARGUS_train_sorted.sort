@@ -31,7 +31,12 @@
   },
   "rank": false,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "marque",
+      "desc": false
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {},
   "computedColumns": []
