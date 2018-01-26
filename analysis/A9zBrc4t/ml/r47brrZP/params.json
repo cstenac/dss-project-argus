@@ -1818,7 +1818,7 @@
       "nJobs": -1
     },
     "metrics": {
-      "evaluationMetric": "R2",
+      "evaluationMetric": "MAE",
       "customEvaluationMetricGIB": true,
       "customEvaluationMetricNeedsProba": false,
       "costMatrixWeights": {
