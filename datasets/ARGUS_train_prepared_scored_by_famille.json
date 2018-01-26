@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1516979216360
+    "lastModifiedOn": 1516979231508
   },
   "creationTag": {
     "versionNumber": 0,
@@ -75,7 +75,7 @@
   },
   "tags": [],
   "params": {
-    "metastoreSynchronizationEnabled": true,
+    "metastoreSynchronizationEnabled": false,
     "hiveTableName": "${projectKey}_ARGUS_train_prepared_scored_by_famille",
     "connection": "hdfs-file-managed",
     "path": "/${projectKey}/ARGUS_train_prepared_scored_by_famille",
