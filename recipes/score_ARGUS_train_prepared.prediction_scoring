@@ -6,7 +6,9 @@
   "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
   "backendType": "PY_MEMORY",
   "filterInputColumns": false,
+  "engineType": "SPARK",
   "sparkConf": {
+    "inheritConf": "default",
     "conf": []
   },
   "keptInputColumns": [],
