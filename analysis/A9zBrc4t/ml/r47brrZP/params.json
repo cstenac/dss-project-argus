@@ -1490,9 +1490,11 @@
     "sgd_regression": {
       "enabled": true,
       "squared_loss": true,
-      "huber": false,
+      "huber": true,
       "epsilon": [
-        0.01
+        0.01,
+        0.03,
+        0.001
       ],
       "l2": false,
       "l1": true,
