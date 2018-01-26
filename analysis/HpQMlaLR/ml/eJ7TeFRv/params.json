@@ -19,7 +19,7 @@
         "rules": []
       },
       "samplingMethod": "HEAD_SEQUENTIAL",
-      "maxRecords": 100000,
+      "maxRecords": 50000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
@@ -1368,11 +1368,10 @@
       ],
       "n_jobs": 1,
       "max_tree_depth": [
-        6,
-        18
+        6
       ],
       "min_samples_leaf": [
-        10
+        15
       ],
       "selection_mode": "auto",
       "max_features": [
@@ -1494,7 +1493,7 @@
         1.0,
         3.0
       ],
-      "enabled": true
+      "enabled": false
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
