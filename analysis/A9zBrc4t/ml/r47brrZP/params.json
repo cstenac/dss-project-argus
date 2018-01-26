@@ -1345,7 +1345,7 @@
   },
   "modeling": {
     "random_forest_regression": {
-      "enabled": true,
+      "enabled": false,
       "n_estimators": [
         100
       ],
@@ -1477,7 +1477,7 @@
         1.0,
         3.0
       ],
-      "enabled": true
+      "enabled": false
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
@@ -1488,7 +1488,7 @@
       "n_jobs": 2
     },
     "sgd_regression": {
-      "enabled": false,
+      "enabled": true,
       "squared_loss": true,
       "huber": false,
       "epsilon": [
