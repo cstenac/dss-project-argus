@@ -1492,7 +1492,6 @@
       "squared_loss": true,
       "huber": true,
       "epsilon": [
-        0.001,
         0.01
       ],
       "l2": false,
