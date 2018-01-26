@@ -1499,7 +1499,6 @@
       "elasticnet": false,
       "alpha": [
         0.001,
-        1.0E-4,
         1.0E-5
       ],
       "l1_ratio": 0.15,
