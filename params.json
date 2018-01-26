@@ -21,7 +21,7 @@
       "integrations": []
     },
     "flowBuildSettings": {
-      "mergeSparkPipelines": false,
+      "mergeSparkPipelines": true,
       "pruneBeforeSparkPipelines": true
     },
     "limitsSettings": {
@@ -56,6 +56,22 @@
         "useBuiltinEnv": true,
         "preventOverride": false
       }
+    },
+    "datasetsCreationSettings": {
+      "useGlobal": true,
+      "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
+      "virtualizable": false
+    },
+    "hiveEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sparkEngineCreationSettings": {
+      "useGlobal": true
+    },
+    "impalaEngineCreationSettings": {
+      "useGlobal": true,
+      "streamMode": true
     }
   },
   "name": "argus",
@@ -109,6 +125,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1516979255301
   },
   "creationTag": {
     "versionNumber": 0,
