@@ -1811,12 +1811,12 @@
       "mode": "KFOLD",
       "splitRatio": 0.8,
       "shuffleIterations": 1,
-      "nFolds": 3,
+      "nFolds": 2,
       "stratified": true,
       "randomized": true,
       "nIter": 0,
       "timeout": 0,
-      "nJobs": -1
+      "nJobs": 1
     },
     "metrics": {
       "evaluationMetric": "MAE",
