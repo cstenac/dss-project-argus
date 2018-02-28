@@ -2,7 +2,7 @@
   "predictionType": "REGRESSION",
   "targetVariable": "prix_vente",
   "weight": {
-    "weightMethod": "NO_WEIGHTING"
+    "weightMethod": "SAMPLE_WEIGHT"
   },
   "guessPolicy": "DEFAULT",
   "splitParams": {
@@ -22,7 +22,7 @@
         "rules": []
       },
       "samplingMethod": "HEAD_SEQUENTIAL",
-      "maxRecords": 100000,
+      "maxRecords": 10000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
