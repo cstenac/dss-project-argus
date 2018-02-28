@@ -2,7 +2,8 @@
   "predictionType": "REGRESSION",
   "targetVariable": "prix_vente",
   "weight": {
-    "weightMethod": "SAMPLE_WEIGHT"
+    "weightMethod": "SAMPLE_WEIGHT",
+    "sampleWeightVariable": "veh_puissance_kw"
   },
   "guessPolicy": "DEFAULT",
   "splitParams": {
@@ -96,7 +97,7 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "role": "INPUT",
+        "role": "WEIGHT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
