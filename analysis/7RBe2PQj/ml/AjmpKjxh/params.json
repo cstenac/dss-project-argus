@@ -1354,7 +1354,7 @@
   },
   "modeling": {
     "random_forest_regression": {
-      "enabled": true,
+      "enabled": false,
       "n_estimators": [
         100
       ],
@@ -1490,7 +1490,7 @@
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
-      "enabled": false,
+      "enabled": true,
       "weight_not_supported": true
     },
     "leastsquare_regression": {
