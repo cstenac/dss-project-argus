@@ -3,7 +3,8 @@
     "nameparser": {
       "remote": "https://github.com/derek73/python-nameparser",
       "checkout": "refs/heads/master",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "b9b29cbbbfc138d4958b63e00a047610f30ff6de"
     }
   },
   "pythonPath": [
