@@ -1,0 +1,12 @@
+{
+  "gitReferences": {
+    "nameparser": {
+      "remote": "https://github.com/derek73/python-nameparser",
+      "checkout": "refs/heads/master",
+      "remotePath": ""
+    }
+  },
+  "pythonPath": [
+    "nameparser"
+  ]
+}
