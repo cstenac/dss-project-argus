@@ -49,6 +49,7 @@
     "readMissingColumnsBehavior": "DISCARD_SILENT",
     "readDataTypeMismatchBehavior": "DISCARD_WARNING",
     "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
     "compress": ""
   },
   "partitioning": {
@@ -57,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519815135855
+    "lastModifiedOn": 1542617370367
   },
   "creationTag": {
     "versionNumber": 0,
@@ -82,39 +83,29 @@
     }
   },
   "schema": {
-    "userModified": true,
     "columns": [
       {
         "name": "sepal_length",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "string"
       },
       {
         "name": "sepal_width",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "string"
       },
       {
         "name": "petal_length",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "string"
       },
       {
         "name": "petal_width",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "string"
       },
       {
         "name": "species",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "string"
       }
-    ]
+    ],
+    "userModified": true
   },
   "metrics": {
     "probes": [
@@ -191,5 +182,8 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "customFields": {
+    "gdpr_contains_personal_data": "YES"
   }
 }
