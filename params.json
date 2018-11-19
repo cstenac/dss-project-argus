@@ -104,6 +104,7 @@
   },
   "name": "argus",
   "projectStatus": "Sandbox",
+  "imgPattern": 5,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -159,11 +160,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1542007859557
+    "lastModifiedOn": 1542617393234
   },
   "creationTag": {
     "versionNumber": 0,
@@ -174,6 +175,12 @@
   },
   "shortDesc": "The project *argus* was created by Administrator on Sep 29th 2017",
   "tags": [],
+  "customFields": {
+    "gdpr_forbidden_connections": [],
+    "gdpr_forbid_dataset_sharing": true,
+    "gdpr_forbid_dataset_export": true,
+    "gdpr_forbid_model_creation": true
+  },
   "checklists": {
     "checklists": [
       {
